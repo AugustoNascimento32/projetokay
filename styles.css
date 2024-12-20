@@ -1,0 +1,229 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color:bisque;
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 300px;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+    background:linear-gradient(45deg, black, blue,rgb(223, 106, 11));
+    }
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav ul {
+    display: flex;
+    
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+nav .active a,
+nav a:hover {
+    background-color: rgb(104, 104, 18);
+}
+
+#banner { 
+    display: flex;
+    justify-content: center;
+    background-image: url('assets/imagem\ banner.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 670px;
+   }
+
+.column {
+    flex-direction: column;
+}
+
+.banner_headline{
+    flex:1;   
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+
+
+.banner_headline h1{
+    font-size: 50px;
+    color:white ;
+    text-shadow: 1px 1px 2px black;
+    margin: 0px;
+    padding: 0px;
+    max-width: 350px;
+}
+
+.banner_headline h2{
+    font-size: 19px;
+    color:white ;
+    text-shadow: 1px 1px 2px black;
+    margin: 0px;
+    padding: 0px;
+    max-width: 350px;
+    margin-top: 30px;
+}
+
+
+.banner_options {
+    height: 210px;
+    display: flex;
+
+}
+
+.banner1,
+.banner2,
+.banner3 {
+    padding: 20px;
+    flex: 1;
+    color: white;
+}
+
+.banner1 {
+    background-color: rgb(32, 32, 32);
+}
+
+.banner2 {
+    background-color: rgb(39, 8, 212);
+}
+
+.banner3 {
+    background-color: rgb(209, 79, 4);
+}
+
+.banner_title{
+    font-size: 20px;
+}
+  
+
+.banner_desc{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.banner_options a{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px;
+    color: ;
+    font-size: 13px;
+    text-decoration: none;
+
+}
+
+#geral{
+    display: flex;
+    justify-content: center;
+}
+
+#geral section {
+    flex:2;
+
+}
+
+#geral aside {
+    flex: 1;
+}
+
+.widget_body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article{
+    flex:1;
+    min-width: 300px; 
+    margin-right: 20px;
+}
+
+.widget_title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget_title_text {
+    color: black;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.widget_title_bar {
+    margin: 5px;
+    width: 50px;
+    height: 3px;
+    margin-top: 10px;
+    background-color: bisque;
+}
+
+article .title_ref {
+    display: flex;
+
+}
+
+article .title_text_ref{
+    margin: 5px;
+    background-color: rgb(145, 116, 82);
+    text-shadow: 1px 1px 2px black;
+    font-size: 12px;
+    padding: 10px;
+}
+
+article .thumbnail{
+    margin-top: 30px;
+}
+
+article .thumbnail img{
+    width: 100%;
+    height: auto;
+}
+
+article .thumbnail_title {
+    color: rgb(224, 224, 10);
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    font-size: 23px;
+}
+
+article .thumbnail_resume {
+    color: rgb(202, 202, 9);
+    text-shadow: 1px 1px 2px rgb(255, 253, 253);
+    font-size: 14px;
+    line-height: 20px;
+}
